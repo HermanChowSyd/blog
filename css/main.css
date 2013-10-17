@@ -14,13 +14,17 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font: 15px serif;
   text-align: center;
+  color: #373B44;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-family: Helvetica, sans-serif;
+  font-size: 150%;
+  font-weight: normal;
+  color: #007AFF;
+}
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -56,7 +60,7 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 120%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
@@ -66,6 +70,7 @@ ul.posts span {
 .site .header a {
   font-weight: bold;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 .site .header h1.title {
@@ -74,7 +79,7 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: #a00;
+  color: #ccc;
 }
 
 .site .header h1.title a:hover {
@@ -82,7 +87,7 @@ ul.posts span {
 }
 
 .site .header a.extra {
-  color: #aaa;
+  color: #ccc;
   margin-left: 1em;
 }
 
@@ -91,6 +96,10 @@ ul.posts span {
 }
 
 .site .meta {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin: 0 0 1em 0;
   color: #aaa;
 }
 
